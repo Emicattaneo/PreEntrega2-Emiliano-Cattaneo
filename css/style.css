@@ -86,8 +86,8 @@ main{
     background-color: whitesmoke;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 75%;
-    height: 95%;
+    width: 55%;
+    height: 85%;
     border-radius: 15px;
     border: 1px solid black;
     text-align: center;
@@ -218,13 +218,13 @@ p{
         grid-column: span 3;
     }
 
-    body{
+/*     body{
         font-size: 28px;
     }
     
     .busqueda{
         font-size: 24px;
-    }    
+    }   */  
 }
 
 /* --- */
