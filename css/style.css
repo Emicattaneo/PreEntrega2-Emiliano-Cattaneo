@@ -34,6 +34,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     width: 99%;
+    height: 99%;
     margin: 5px;
     border-radius: 5px;
 }
@@ -94,6 +95,7 @@ main{
     flex-direction: column;
     justify-self: center;
     align-self: center;
+    justify-content: center;
 }
 
 .productos {
@@ -172,7 +174,7 @@ p{
     .nav-marcas{
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 20% auto
+        grid-template-rows: 30% auto
     }
 
     .nav-marcas-titulo{
@@ -210,21 +212,24 @@ p{
         margin: 10px;
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 20% auto
+        margin-left: 55px;
+        margin-right: 55px;
+        grid-template-rows: 30% auto
     }
 
     .nav-marcas-titulo{
         margin-bottom: 60px;
         grid-column: span 3;
     }
-
-/*     body{
-        font-size: 28px;
-    }
     
-    .busqueda{
-        font-size: 24px;
-    }   */  
+    .caja-nav-paginas{
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+
 }
 
 /* --- */
