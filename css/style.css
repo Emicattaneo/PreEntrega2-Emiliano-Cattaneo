@@ -158,6 +158,21 @@ main{
     font-size: 20px;
 }
 
+/* Nosotros */
+.google-maps-caja{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.google-maps{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
 /* -------------------------------------------------------- */
 
 /* Footer ------------------------------------------------- */
@@ -289,6 +304,10 @@ p{
     
     .busqueda{
         font-size: 30px;
+    }
+
+    .google-maps-caja{
+        height: 800px;
     }
 }
 
