@@ -17,7 +17,7 @@ ul, ol{
     list-style: none;
 }
 
-/* -------- Header -------- */
+/* Header --------------------------------------------------- */
 
 h1{
     color: transparent;
@@ -60,13 +60,39 @@ h1{
     height: 100%;
 }
 
-/* ---- */
+/* --------------------------------------------------- */
 
-/* --- Main --- */
+/* Main ---------------------------------------------- */
 
 main{
     background: linear-gradient(wheat, whitesmoke 15%);
 }
+
+/* Index */
+
+.caja-imagen-negocio{
+    width: 99%;
+    height: 99%;
+    margin: auto;
+}
+
+.imagen-negocio{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.titulo-descriptivo{
+    text-align: center;
+    margin: 5px;
+}
+
+.texto-horarios{
+    text-align: center;
+    margin: 5px;
+}
+
+/* Relojeria y Joyeria */
 
 .caja-nav-marcas{
     text-align: center;
@@ -113,9 +139,28 @@ main{
     text-decoration: line-through;
 }
 
-/* ---- */
+/* Serivicio Tecnico & Garantias */
 
-/* ---- Footer ---- */
+.caja-formulario{
+    text-align: center;
+    margin: 5px;
+}
+
+.formulario{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.boton{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* -------------------------------------------------------- */
+
+/* Footer ------------------------------------------------- */
 
 footer{
     margin-top: 15px;
@@ -149,7 +194,7 @@ p{
     height: 20px;
 }
 
-/* ---- */
+/* ------------------------------------------------------- */
 
 /* ----- Vista Tablet ----- */
 
