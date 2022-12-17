@@ -1,0 +1,26 @@
+@media (min-width: 1440px) {
+
+    .main {
+        &__links {
+            margin: 10px;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            margin-left: 55px;
+            margin-right: 55px;
+            grid-template-rows: 30% auto
+        }
+
+        &__titulo-marcas {
+            margin-bottom: 60px;
+            grid-column: span 3;
+        }
+    }
+
+    .nav {
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+}

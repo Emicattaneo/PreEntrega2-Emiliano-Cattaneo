@@ -1,0 +1,53 @@
+@media (min-width: 768px) {
+   
+    .header {
+        &__busqueda {
+            width: 768px;
+            margin: auto;
+        }
+    }
+
+    .nav {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 70px;
+
+        &__paginas {
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+        }
+    }
+
+    .main {
+        &__links {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 30% auto
+        }
+
+        &__titulo-marcas {
+            grid-column: span 2;
+        }
+
+        &__productos {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 33% 33% 33%;
+        }
+    }
+
+    .footer {
+        background-color: wheat;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 75% auto;
+        justify-content: space-evenly;
+        align-content: center;
+
+        &__copyright {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            grid-column: span 3;
+        }
+    }
+}
