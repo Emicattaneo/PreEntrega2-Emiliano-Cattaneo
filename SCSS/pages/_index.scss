@@ -1,60 +1,60 @@
-.caja-imagen-negocio{
+.caja-imagen-negocio {
     width: 99%;
     height: 99%;
     margin: auto;
 }
 
-.imagen-negocio{
+.imagen-negocio {
     width: 100%;
     height: 100%;
     border-radius: 15px;
 }
 
-.titulo-descriptivo{
+.titulo-descriptivo {
     text-align: center;
     margin: 5px;
 }
 
-.texto-horarios{
+.texto-horarios {
     text-align: center;
     margin: 5px;
 }
 
 
-@media (min-width: 768px){
-    .caja-busqueda{
+@media (min-width: 768px) {
+    .caja-busqueda {
         width: 768px;
         margin: auto;
     }
 
-    .caja-nav-paginas{
+    .caja-nav-paginas {
         text-align: center;
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
-    .nav-paginas{
+    .nav-paginas {
         display: grid;
         grid-template-columns: 20% 20% 20% 20%;
     }
 
-    .nav-marcas{
+    .nav-marcas {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 30% auto;
     }
 
-    .nav-marcas-titulos{
+    .nav-marcas-titulos {
         grid-column: span 2;
     }
 
-    .padre-caja-productos{
+    .padre-caja-productos {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 33% 33% 33%;
     }
 
-    .informacion-footer{
+    .informacion-footer {
         background-color: wheat;
         display: grid;
         grid-template-columns: 30% 30% 30%;
@@ -63,29 +63,30 @@
         align-content: center;
     }
 
-    .copyright{
+    .copyright {
         margin-top: 10px;
         margin-bottom: 5px;
         grid-column: span 3;
     }
 }
 
-@media (min-width: 1440px){
-    .nav-marcas{
+@media (min-width: 1440px) {
+    .nav-marcas {
         margin: 10px;
         display: grid;
         grid-template-columns: 33% 33% 33%;
         margin-left: 55px;
         margin-left: 55px;
-        grid-template-rows: 30% auto;;
+        grid-template-rows: 30% auto;
+        ;
     }
 
-    .nav-marcas.titulo{
+    .nav-marcas.titulo {
         margin-bottom: 60pc;
         grid-column: span 3;
     }
 
-    .caja-nav-paginas{
+    .caja-nav-paginas {
         text-align: center;
         margin-top: 5px;
         margin-left: 20px;
@@ -94,16 +95,16 @@
     }
 }
 
-@media (min-width: 2560px){
-    body{
+@media (min-width: 2560px) {
+    body {
         font-size: 34px;
     }
 
-    .busqueda{
+    .busqueda {
         font-size: 30px;
     }
 
-    .google-maps-caja{
+    .google-maps-caja {
         height: 800px;
     }
 }
