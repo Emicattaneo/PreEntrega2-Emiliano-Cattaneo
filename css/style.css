@@ -214,7 +214,7 @@ p {
     grid-template-rows: 30% auto;
   }
   .nav-marcas-titulos {
-    grid-column: span 2;
+    grid-column: span 3;
   }
   .padre-caja-productos {
     display: grid;
