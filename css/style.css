@@ -1,314 +1,260 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: wheat;
-    font-family: 'Montserrat', sans-serif;
+  background-color: wheat;
+  font-family: "Montserrat", sans-serif;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul, ol{
-    list-style: none;
+ul, ol {
+  list-style: none;
 }
 
-/* Header --------------------------------------------------- */
-
-h1{
-    color: transparent;
-    float: right;
-    font-size: 1px;
-    background-color: wheat;
+main {
+  background: linear-gradient(wheat, whitesmoke 15%);
 }
 
-.caja-busqueda{
-    width: 99%;
-}
-
-.busqueda{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    width: 99%;
-    height: 99%;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-.caja-nav-paginas{
-    text-align: center;
-}
-
-.paginas{
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-.caja-logo{
-    width: 300px;
-    height: 150px;
+@media (min-width: 768px) {
+  .caja-busqueda {
+    width: 768px;
     margin: auto;
-    margin-bottom: 10px;
-}
-
-.logo-jc{
-    width: 100%;
-    height: 100%;
-}
-
-/* --------------------------------------------------- */
-
-/* Main ---------------------------------------------- */
-
-main{
-    background: linear-gradient(wheat, whitesmoke 15%);
-}
-
-/* Index */
-
-.caja-imagen-negocio{
-    width: 99%;
-    height: 99%;
-    margin: auto;
-}
-
-.imagen-negocio{
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-}
-
-.titulo-descriptivo{
+  }
+  .caja-nav-paginas {
     text-align: center;
-    margin: 5px;
-}
-
-.texto-horarios{
-    text-align: center;
-    margin: 5px;
-}
-
-/* Relojeria y Joyeria */
-
-.caja-nav-marcas{
-    text-align: center;
-}
-
-.titulo-oferta{
-    text-align: center;
-}
-
-.padre-caja-productos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-}
-
-.caja-productos{
-    background-color: whitesmoke;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .nav-paginas {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+  }
+  .nav-marcas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% auto;
+  }
+  .nav-marcas-titulos {
+    grid-column: span 2;
+  }
+  .padre-caja-productos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+  }
+  .informacion-footer {
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 75% auto;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+  .copyright {
     margin-top: 10px;
-    margin-bottom: 10px;
-    width: 55%;
-    height: 85%;
-    border-radius: 15px;
-    border: 1px solid black;
+    margin-bottom: 5px;
+    grid-column: span 3;
+  }
+}
+@media (min-width: 1440px) {
+  .nav-marcas {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 55px;
+    margin-left: 55px;
+    grid-template-rows: 30% auto;
+  }
+  .nav-marcas.titulo {
+    margin-bottom: 60pc;
+    grid-column: span 3;
+  }
+  .caja-nav-paginas {
     text-align: center;
-    flex-direction: column;
-    justify-self: center;
-    align-self: center;
-    justify-content: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 2560px) {
+  body {
+    font-size: 34px;
+  }
+  .busqueda {
+    font-size: 30px;
+  }
+  .google-maps-caja {
+    height: 800px;
+  }
+}
+h1 {
+  color: transparent;
+  float: right;
+  font-size: 1px;
+  background-color: wheat;
+}
+
+.busqueda {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  width: 99%;
+  height: 99%;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.caja-nav-paginas {
+  text-align: center;
+}
+
+.paginas {
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.logo-jc {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  margin-top: 15px;
+  background-color: wheat;
+}
+
+p {
+  font-size: 20px;
+}
+
+.informacion-footer {
+  text-align: center;
+}
+
+.ayuda {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.contactanos {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.redes-sociales {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.logos-contactanos {
+  width: 20px;
+  height: 20px;
+}
+
+.caja-nav-marcas {
+  text-align: center;
+}
+
+.titulo-oferta {
+  text-align: center;
+}
+
+.padre-caja-productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.caja-productos {
+  background-color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 55%;
+  height: 85%;
+  border-radius: 15px;
+  border: 1px solid black;
+  text-align: center;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
 }
 
 .productos {
-    width: 95%;
-    height: 75%;
-    border-radius: 15px;
-    border: 1px solid black;
-    margin: 2px;
-    flex-direction: column;
-    justify-self: center;
-    align-self: center;
+  width: 95%;
+  height: 75%;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: 2px;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
 }
 
-.producto-oferta{
-    text-decoration: line-through;
+.productos-oferta {
+  text-decoration: line-through;
 }
 
-/* Serivicio Tecnico & Garantias */
-
-.caja-formulario{
-    text-align: center;
-    margin: 5px;
+.caja-imagen-negocio {
+  width: 99%;
+  height: 99%;
+  margin: auto;
 }
 
-.formulario{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+.imagen-negocio {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
 
-.boton{
-    margin-top: 15px;
-    margin-bottom: 20px;
-    font-size: 20px;
+.titulo-descriptivo {
+  text-align: center;
+  margin: 5px;
 }
 
-/* Nosotros */
-.google-maps-caja{
-    width: 95%;
-    height: 500px;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 50px;
+.texto-horarios {
+  text-align: center;
+  margin: 5px;
 }
 
-.google-maps{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+.google-maps-caja {
+  width: 95%;
+  height: 500px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
-/* -------------------------------------------------------- */
-
-/* Footer ------------------------------------------------- */
-
-footer{
-    margin-top: 15px;
-    background-color: wheat;
+.google-maps {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 
-p{
-    font-size: 20px;
+.caja-formulario {
+  text-align: center;
+  margin-top: 5px;
 }
 
-.informacion-footer{
-    text-align: center;
-}
-.ayuda{
-    margin-top: 15px;
-    margin-bottom: 15px;
+.formulario {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
-.contactanos{
-    margin-top: 15px;
-    margin-bottom: 15px;
+.boton {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
-.redes-sociales{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.logos-contactanos{
-    width: 20px;
-    height: 20px;
-}
-
-/* ------------------------------------------------------- */
-
-/* ----- Vista Tablet ----- */
-
-@media (min-width: 768px){
-
-    .caja-busqueda{
-        width: 768px;
-        margin: auto;
-    }
-
-    .caja-nav-paginas{
-        text-align: center;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    .nav-paginas{
-        display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
-    }
-
-    .nav-marcas{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 30% auto
-    }
-
-    .nav-marcas-titulo{
-        grid-column: span 2;
-    }
-    
-    .padre-caja-productos{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 33% 33% 33%;
-    }
-
-    .informacion-footer{
-        background-color: wheat;
-        display: grid;
-        grid-template-columns: 30% 30% 30%;
-        grid-template-rows: 75% auto;
-        justify-content: space-evenly;
-        align-content: center;
-    }
-
-    .copyright{
-        margin-top: 10px;
-        margin-bottom: 5px;
-        grid-column: span 3;
-    }
-}
-
-/* ---- */
-
-/* --- Vista Laptop L ---- */
-
-@media (min-width: 1440px){
-    .nav-marcas{
-        margin: 10px;
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        margin-left: 55px;
-        margin-right: 55px;
-        grid-template-rows: 30% auto
-    }
-
-    .nav-marcas-titulo{
-        margin-bottom: 60px;
-        grid-column: span 3;
-    }
-    
-    .caja-nav-paginas{
-        text-align: center;
-        margin-top: 5px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 5px;
-    }
-
-}
-
-/* --- */
-
-/* --- Vista 4K ---- */
-
-@media (min-width: 2560px){
-
-    body{
-        font-size: 34px;
-    }
-    
-    .busqueda{
-        font-size: 30px;
-    }
-
-    .google-maps-caja{
-        height: 800px;
-    }
-}
-
-/* --- */
+/*# sourceMappingURL=style.css.map */

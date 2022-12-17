@@ -1,0 +1,44 @@
+.caja-nav-marcas{
+    text-align: center;
+}
+
+.titulo-oferta{
+    text-align: center;
+}
+
+.padre-caja-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.caja-productos{
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 55%;
+    height: 85%;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.productos{
+    width: 95%;
+    height: 75%;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 2px;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
+
+.productos-oferta{
+    text-decoration: line-through;
+}
