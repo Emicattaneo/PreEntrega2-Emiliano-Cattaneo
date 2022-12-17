@@ -89,7 +89,7 @@
     height: 50px;
     width: 1444px;
   }
-  .google-maps-caja {
+  .googlemaps {
     height: 800px;
   }
 }
@@ -222,15 +222,14 @@ footer {
   text-align: center;
 }
 
-.google-maps-caja {
+.googlemaps {
   width: 95%;
   height: 500px;
   margin: auto;
   margin-top: 25px;
   margin-bottom: 50px;
 }
-
-.google-maps {
+.googlemaps__map {
   width: 100%;
   height: 100%;
   border-radius: 10px;
