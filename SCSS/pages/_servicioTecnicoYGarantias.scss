@@ -15,7 +15,7 @@
     font-size: 20px;
 }
 
-@media (min-width: 768px){
+@media only screen and (max-width: 1439px) and (min-width: 768px){
     .caja-busqueda{
         width: 768px;
         margin: auto;
@@ -77,7 +77,7 @@
 
     .nav-marcas-titulo{
         margin-bottom: 60px;
-        grid-column: span 3;
+        grid-column: span 3
     }
     
     .caja-nav-paginas{
