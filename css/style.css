@@ -103,14 +103,13 @@ p {
   text-align: center;
 }
 
-.padre-caja-productos {
+.productos {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
 }
-
-.caja-productos {
+.productos__tarjeta {
   background-color: whitesmoke;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -124,8 +123,7 @@ p {
   align-self: center;
   justify-content: center;
 }
-
-.productos {
+.productos__img {
   width: 95%;
   height: 75%;
   border-radius: 15px;
@@ -135,8 +133,7 @@ p {
   justify-self: center;
   align-self: center;
 }
-
-.productos-oferta {
+.productos__oferta {
   text-decoration: line-through;
 }
 
@@ -216,7 +213,7 @@ p {
   .nav-marcas-titulo {
     grid-column: span 2;
   }
-  .padre-caja-productos {
+  .productos {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 33%;
