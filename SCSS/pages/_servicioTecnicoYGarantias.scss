@@ -1,16 +1,13 @@
-.caja-formulario {
+.formulario {
     text-align: center;
     margin-top: 5px;
-}
+    
+    &__datos {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-.formulario {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.boton {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    font-size: 20px;
+    &__boton{
+        margin-top: 15px;
+    }
 }

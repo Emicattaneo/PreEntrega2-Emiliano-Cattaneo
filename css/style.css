@@ -236,21 +236,16 @@ footer {
   border-radius: 10px;
 }
 
-.caja-formulario {
+.formulario {
   text-align: center;
   margin-top: 5px;
 }
-
-.formulario {
+.formulario__datos {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 20px;
 }
-
-.boton {
+.formulario__boton {
   margin-top: 15px;
-  margin-bottom: 20px;
-  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
