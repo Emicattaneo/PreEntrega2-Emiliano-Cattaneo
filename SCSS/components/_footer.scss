@@ -1,32 +1,27 @@
-footer{
-    margin-top: 15px;
-    background-color: wheat;
-}
-
-p{
-    font-size: 20px;
-}
-
-.informacion-footer{
+.footer{
     text-align: center;
-}
+        
+    &__titulos{
+        font-size: 20px;
+    }
+   
+    &__ayuda{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 
-.ayuda{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+    &__contactanos{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 
-.contactanos{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+    &__redes{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 
-.redes-sociales{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.logos-contactanos{
-    width: 20px;
-    height: 20px;
+    &__logos{
+        width: 20px;
+        height: 20px;
+    }
 }

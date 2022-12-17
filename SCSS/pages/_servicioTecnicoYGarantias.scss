@@ -49,20 +49,22 @@
         grid-template-rows: 33% 33% 33%;
     }
 
-    .informacion-footer{
+    .footer{
         background-color: wheat;
         display: grid;
         grid-template-columns: 30% 30% 30%;
         grid-template-rows: 75% auto;
         justify-content: space-evenly;
         align-content: center;
+
+       &__copyright{
+            margin-top: 10px;
+            margin-bottom: 5px;
+            grid-column: span 3;
+        }
     }
             
-    .copyright{
-        margin-top: 10px;
-        margin-bottom: 5px;
-        grid-column: span 3;
-    }
+
 }
 
 @media (min-width: 1440px){
