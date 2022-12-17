@@ -14,26 +14,28 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo" data-aos="zoom-out">
-            <input type="image" src="../Img/jc-relojeria-png.png" class="logo__img">
-        </div>
+    <header data-aos="zoom-out">
+        <div class="header">
+            <div class="header__logo">
+                <input type="image" src="../Img/jc-relojeria-png.png" class="header__img">
+            </div>
 
-        <div class="busqueda" data-aos="zoom-out">
-            <input type="search" placeholder="Que quieres buscar?" class="busqueda__barra">
-        </div>
+            <div class="header__barra">
+                <input type="search" placeholder="Que quieres buscar?" class="header__busqueda">
+            </div>
 
-        <nav class="caja-nav-paginas" data-aos="zoom-out">
-            <ul class="nav-paginas">
-                <li class="paginas"><a href="../index.html">Inicio</a></li>
-                <li class="paginas"><a href="../pages/relojeria.html">Relojeria</a></li>
-                <li class="paginas"><a href="../pages/joyeria.html">Joyeria</a></li>
-                <li class="paginas"><a href="../pages/servicioTecnicoYGarantias.html">Servicio Tecnico &
-                        Garantias</a></li>
-                <li class="paginas"><a href="../pages/nosotros.html">Nosotros</a></li>
-            </ul>
-        </nav>
-        <h1 class="tituloNombre">JC Relojeria</h1>
+            <nav class="nav">
+                <ul class="nav__paginas">
+                    <li class="nav__links"><a href="../index.html">Inicio</a></li>
+                    <li class="nav__links"><a href="../pages/relojeria.html">Relojeria</a></li>
+                    <li class="nav__links"><a href="../pages/joyeria.html">Joyeria</a></li>
+                    <li class="nav__links"><a href="../pages/servicioTecnicoYGarantias.html">Servicio Tecnico &
+                            Garantias</a></li>
+                    <li class="nav__links"><a href="../pages/nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+            <h1 class="tituloNombre">JC Relojeria</h1>
+        </div>
     </header>
 
     <main>
@@ -54,7 +56,7 @@
 
         <!-- Fotos de relojes con precio -->
         <div>
-            <h2 class="titulo-oferta"  data-aos="zoom-out">Ofertas Navideñas</h2>
+            <h2 class="titulo-oferta" data-aos="zoom-out">Ofertas Navideñas</h2>
 
             <div class="productos">
                 <section class="productos__tarjeta" data-aos="fade-right">
@@ -81,7 +83,8 @@
                 </section>
 
                 <section class="productos__tarjeta" data-aos="fade-left">
-                    <img src="../Img/producto-colgante.jpg" class="productos__img" alt="Colgante rojo con detalles dorados">
+                    <img src="../Img/producto-colgante.jpg" class="productos__img"
+                        alt="Colgante rojo con detalles dorados">
                     <h2>Colgante</h2>
                     <span class="productos__oferta">$6000</span>
                     <span>$2000</span>
@@ -116,7 +119,7 @@
                     <li><a href="">Preguntas frecuentes</a></li>
                 </ul>
             </nav>
-           
+
             <ul class="footer__contactanos">
                 <p class="footer__titulos">Contactanos</p>
                 <div>
@@ -139,7 +142,7 @@
                     <img src="../Img/facebook-logo.png" class="footer__logos">
                     <a href="">Facebook</a>
                 </div>
-    
+
                 <div>
                     <img src="../Img/instagram-logo.png" class="footer__logos">
                     <a href="">Instagram</a>
@@ -153,7 +156,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 
 </html>

@@ -33,35 +33,33 @@ footer {
   background-color: wheat;
 }
 
-.busqueda__barra {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  width: 50%;
-  height: 20px;
-  border-radius: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.caja-nav-paginas {
+.nav {
   text-align: center;
 }
-
-.paginas {
+.nav__links {
   margin-top: 2px;
   margin-bottom: 2px;
 }
 
-.logo {
+.header__logo {
   width: 300px;
   height: 150px;
   margin: auto;
   margin-bottom: 10px;
 }
-.logo__img {
+.header__img {
   width: 100%;
   height: 100%;
+}
+.header__busqueda {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  height: 20px;
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {
@@ -179,17 +177,16 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .busqueda {
+  .header__busqueda {
     width: 768px;
     margin: auto;
   }
   .nav {
-    text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
     height: 70px;
   }
-  .nav-paginas {
+  .nav__paginas {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
   }
