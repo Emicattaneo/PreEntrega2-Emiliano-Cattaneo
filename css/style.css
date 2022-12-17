@@ -241,11 +241,11 @@ p {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     margin-left: 55px;
-    margin-left: 55px;
+    margin-right: 55px;
     grid-template-rows: 30% auto;
   }
-  .nav-marcas.titulo {
-    margin-bottom: 60pc;
+  .nav-marcas-titulo {
+    margin-bottom: 60px;
     grid-column: span 3;
   }
   .caja-nav-paginas {
