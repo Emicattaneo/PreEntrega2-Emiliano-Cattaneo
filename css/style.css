@@ -1,3 +1,20 @@
+@media (min-width: 320px) {
+  .main__productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .header__busqueda {
+    width: 320px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media (min-width: 768px) {
   .nav {
     margin-top: 5px;
@@ -36,6 +53,9 @@
   }
 }
 @media (min-width: 1440px) {
+  .header__busqueda {
+    width: 640px;
+  }
   .main__links {
     margin: 10px;
     display: grid;
@@ -60,11 +80,14 @@
   body {
     font-size: 34px;
   }
+  .header__logo {
+    width: 600px;
+    height: 300px;
+  }
   .header__busqueda {
-    font-size: 35px;
+    font-size: 34px;
     height: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1444px;
   }
   .google-maps-caja {
     height: 800px;
@@ -115,16 +138,6 @@ footer {
   width: 100%;
   height: 100%;
 }
-.header__busqueda {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  height: 20px;
-  width: 320px;
-  border-radius: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .nav {
   text-align: center;
@@ -162,12 +175,6 @@ footer {
 }
 .main__titulo {
   text-align: center;
-}
-.main__productos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
 }
 .main__tarjeta {
   background-color: whitesmoke;
