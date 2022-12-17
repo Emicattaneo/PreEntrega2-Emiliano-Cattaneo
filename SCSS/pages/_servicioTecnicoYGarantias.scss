@@ -21,7 +21,7 @@
         margin: auto;
     }
 
-    .caja-nav-paginas{
+    .nav{
         text-align: center;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -57,13 +57,12 @@
         justify-content: space-evenly;
         align-content: center;
     }
-
             
     .copyright{
         margin-top: 10px;
         margin-bottom: 5px;
         grid-column: span 3;
-        }
+    }
 }
 
 @media (min-width: 1440px){
@@ -81,7 +80,7 @@
         grid-column: span 3;
     }
     
-    .caja-nav-paginas{
+    .nav{
         text-align: center;
         margin-top: 5px;
         margin-left: 20px;

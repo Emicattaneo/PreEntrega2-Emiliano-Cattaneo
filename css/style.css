@@ -147,11 +147,9 @@ p {
 
 .texto__anios {
   text-align: center;
-  margin: 5px;
 }
 .texto__horarios {
   text-align: center;
-  margin: 5px;
 }
 
 .google-maps-caja {
@@ -190,7 +188,7 @@ p {
     width: 768px;
     margin: auto;
   }
-  .caja-nav-paginas {
+  .nav {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -240,7 +238,7 @@ p {
     margin-bottom: 60px;
     grid-column: span 3;
   }
-  .caja-nav-paginas {
+  .nav {
     text-align: center;
     margin-top: 5px;
     margin-left: 20px;
