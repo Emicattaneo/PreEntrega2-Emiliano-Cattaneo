@@ -34,20 +34,22 @@
         }
     }
 
-    .nav-marcas {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 30% auto
-    }
+    .main {
+        &__links {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 30% auto
+        }
 
-    .nav-marcas-titulo {
-        grid-column: span 2;
-    }
+        &__titulo-marcas {
+            grid-column: span 2;
+        }
 
-    .productos {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 33% 33% 33%;
+        &__productos {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 33% 33% 33%;
+        }
     }
 
     .footer {
@@ -67,18 +69,21 @@
 }
 
 @media (min-width: 1440px) {
-    .nav-marcas {
-        margin: 10px;
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        margin-left: 55px;
-        margin-right: 55px;
-        grid-template-rows: 30% auto
-    }
 
-    .nav-marcas-titulo {
-        margin-bottom: 60px;
-        grid-column: span 3;
+    .main {
+        &__links {
+            margin: 10px;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            margin-left: 55px;
+            margin-right: 55px;
+            grid-template-rows: 30% auto
+        }
+
+        &__titulo-marcas {
+            margin-bottom: 60px;
+            grid-column: span 3;
+        }
     }
 
     .nav {

@@ -85,21 +85,19 @@ footer {
   height: 20px;
 }
 
-.caja-nav-marcas {
+.main__marcas {
   text-align: center;
 }
-
-.titulo-oferta {
+.main__titulo {
   text-align: center;
 }
-
-.productos {
+.main__productos {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
 }
-.productos__tarjeta {
+.main__tarjeta {
   background-color: whitesmoke;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -113,7 +111,7 @@ footer {
   align-self: center;
   justify-content: center;
 }
-.productos__img {
+.main__img {
   width: 95%;
   height: 75%;
   border-radius: 15px;
@@ -123,7 +121,7 @@ footer {
   justify-self: center;
   align-self: center;
 }
-.productos__oferta {
+.main__oferta {
   text-decoration: line-through;
 }
 
@@ -190,15 +188,15 @@ footer {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
   }
-  .nav-marcas {
+  .main__links {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 30% auto;
   }
-  .nav-marcas-titulo {
+  .main__titulo-marcas {
     grid-column: span 2;
   }
-  .productos {
+  .main__productos {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 33%;
@@ -218,7 +216,7 @@ footer {
   }
 }
 @media (min-width: 1440px) {
-  .nav-marcas {
+  .main__links {
     margin: 10px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -226,7 +224,7 @@ footer {
     margin-right: 55px;
     grid-template-rows: 30% auto;
   }
-  .nav-marcas-titulo {
+  .main__titulo-marcas {
     margin-bottom: 60px;
     grid-column: span 3;
   }
