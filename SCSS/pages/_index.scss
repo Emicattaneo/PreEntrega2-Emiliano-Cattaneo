@@ -1,21 +1,23 @@
-.caja-imagen-negocio {
+.negocio {
     width: 99%;
     height: 99%;
     margin: auto;
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
 }
 
-.imagen-negocio {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-}
+.texto{
+    &__anios{
+        text-align: center;
+        margin: 5px;
+    }
 
-.titulo-descriptivo {
-    text-align: center;
-    margin: 5px;
-}
-
-.texto-horarios {
-    text-align: center;
-    margin: 5px;
+    &__horarios {
+        text-align: center;
+        margin: 5px;
+    }
 }

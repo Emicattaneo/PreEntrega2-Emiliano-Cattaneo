@@ -16,7 +16,7 @@
 }
 
 @media (min-width: 768px){
-    .caja-busqueda{
+    .busqueda{
         width: 768px;
         margin: auto;
     }
@@ -58,11 +58,12 @@
         align-content: center;
     }
 
+            
     .copyright{
         margin-top: 10px;
         margin-bottom: 5px;
         grid-column: span 3;
-    }
+        }
 }
 
 @media (min-width: 1440px){
