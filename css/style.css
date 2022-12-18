@@ -179,11 +179,11 @@ footer {
 .main__tarjeta {
   background-color: whitesmoke;
   margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-bottom: 20px; */
   width: 55%;
-  height: 85%;
+  height: 99%;
   border-radius: 15px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
   flex-direction: column;
   justify-self: center;
