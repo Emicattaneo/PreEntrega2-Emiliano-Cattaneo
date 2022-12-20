@@ -1,4 +1,7 @@
 @media (min-width: 320px) {
+    .nav{
+        align-self: center;
+    }
     .main {
         &__productos {
             display: flex;
@@ -23,9 +26,7 @@
 
 @media (min-width: 768px) {
     .nav {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        height: 70px;
+        height: 40px;
 
         &__paginas {
             display: grid;
@@ -36,12 +37,9 @@
     .main {
         &__links {
             display: grid;
+            height: 100px;
             grid-template-columns: 50% 50%;
-            grid-template-rows: 30% auto
-        }
-
-        &__titulo-marcas {
-            grid-column: span 2;
+            grid-template-rows: 33% 33% 33%
         }
 
         &__productos {
@@ -82,21 +80,14 @@
             grid-template-columns: 33% 33% 33%;
             margin-left: 55px;
             margin-right: 55px;
-            grid-template-rows: 30% auto
-        }
-
-        &__titulo-marcas {
-            margin-bottom: 60px;
-            grid-column: span 3;
+            grid-template-rows: 50% auto
         }
     }
 
     .nav {
         text-align: center;
-        margin-top: 5px;
         margin-left: 20px;
         margin-right: 20px;
-        margin-bottom: 5px;
     }
 }
 
