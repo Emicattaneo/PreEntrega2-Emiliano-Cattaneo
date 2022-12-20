@@ -28,9 +28,9 @@
   }
   .main__links {
     display: grid;
-    height: 100px;
+    height: 120px;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-rows: 16% 16% 16% 16% 16%;
   }
   .main__productos {
     display: grid;
@@ -61,7 +61,7 @@
     grid-template-columns: 33% 33% 33%;
     margin-left: 55px;
     margin-right: 55px;
-    grid-template-rows: 50% auto;
+    grid-template-rows: 25% 25% 25% 25%;
   }
   .nav {
     text-align: center;
