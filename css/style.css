@@ -230,9 +230,31 @@ footer {
   border-radius: 10px;
 }
 
+.descripcion {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+.descripcion__uno {
+  margin-top: 10px;
+}
+.descripcion__dos {
+  margin-top: 10px;
+}
+.descripcion__tres {
+  margin-top: 10px;
+}
+.descripcion__cuatro {
+  margin-top: 10px;
+}
+.descripcion__cinco {
+  margin-top: 10px;
+}
+
 .formulario {
-  text-align: center;
-  margin-top: 5px;
+  height: 100%;
+  width: 80%;
+  margin: auto;
 }
 .formulario__datos {
   margin-top: 10px;
@@ -240,6 +262,10 @@ footer {
 }
 .formulario__boton {
   margin-top: 15px;
+  margin-bottom: 15px;
+}
+.formulario__texto {
+  vertical-align: top;
 }
 
 /*# sourceMappingURL=style.css.map */

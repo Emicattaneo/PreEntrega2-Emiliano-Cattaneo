@@ -1,7 +1,31 @@
-.formulario {
-    text-align: center;
-    margin-top: 5px;
+.descripcion{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+
     
+    &__uno{
+        margin-top: 10px;
+    }
+    &__dos{
+        margin-top: 10px;
+    }
+    &__tres{
+        margin-top: 10px;
+    }
+    &__cuatro{
+        margin-top: 10px;
+    }
+    &__cinco{
+        margin-top: 10px;
+    }
+}
+
+.formulario {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+
     &__datos {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -9,5 +33,10 @@
 
     &__boton{
         margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    &__texto{
+        vertical-align: top;   
     }
 }
