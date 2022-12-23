@@ -26,6 +26,9 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
   }
+  .texto {
+    font-size: 24px;
+  }
   .main__links {
     display: grid;
     height: 120px;
@@ -54,6 +57,9 @@
 @media (min-width: 1440px) {
   .header__busqueda {
     width: 640px;
+  }
+  .texto {
+    font-size: 34px;
   }
   .main__links {
     margin: 10px;
@@ -198,13 +204,14 @@ footer {
 }
 
 .negocio {
-  width: 99%;
-  height: 99%;
-  margin: auto;
-}
-.negocio__img {
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.negocio__img {
+  width: 80%;
+  height: 80%;
   border-radius: 15px;
 }
 
