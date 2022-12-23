@@ -99,7 +99,7 @@
 }
 
 body {
-  background-color: wheat;
+  background-color: whitesmoke;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -109,6 +109,10 @@ a {
 
 ul, ol {
   list-style: none;
+}
+
+header {
+  background-color: wheat;
 }
 
 main {

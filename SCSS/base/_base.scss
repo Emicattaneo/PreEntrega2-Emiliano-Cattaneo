@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: wheat;
+    background-color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -17,6 +17,9 @@ ul, ol{
     list-style: none;
 }
 
+header{
+    background-color: wheat;
+}
 main{
     background: linear-gradient(wheat, whitesmoke 15%);
 }
